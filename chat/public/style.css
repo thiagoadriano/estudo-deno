@@ -1,0 +1,44 @@
+#messages {
+    height: 60vh;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#messages li {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#messages li.mine {
+    justify-content: flex-end;
+}
+
+#messages li.mine div {
+    background: #7dc6c9;
+}
+
+#messages li div {
+    background: gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    display: inline-block;
+    min-width: 200px;
+}
+
+#messages li div p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+#messages li div p.user {
+    font-style: italic;
+    font-size: small;
+    color: #747474;
+    margin-bottom: 3px;
+}
